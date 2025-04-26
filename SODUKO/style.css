@@ -1,24 +1,36 @@
-.soduko{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+.soduko {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 3px;
 }
 
-.ABC, .DFG, .HIJ{
-    display: flex;
-    flex-direction: row;
-    gap: 2px;
+.ABC,
+.DEF,
+.GHI {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
 }
-input{
-    width: 30px;
-    height: 30px;
+input {
+  width: 30px;
+  height: 30px;
 }
 
-.quadra_A, .quadra_B, .quadra_C{
-    border: solid 2px black;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 114px;
-
+.quadra_A,
+.quadra_B,
+.quadra_C,
+.quadra_D,
+.quadra_E,
+.quadra_F,
+.quadra_G,
+.quadra_H,
+.quadra_I {
+  border: solid 2px black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  width: 114px;
+  height: 112px;
 }
